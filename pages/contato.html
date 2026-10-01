@@ -1,39 +1,140 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css">  
-    <title>GlobalTech</title>
-</head>
-<body>
-
-    <header class="cabecalho">
-        <img id="cabecalho-logo" src="../img/logo-global-tech.png" alt="Logo Global Tech">
-        <nav class="cabecalho-links">
-            <a href="../index.html">Home</a>
-            <a href="./sobre.html">Sobre</a>
-            <a href="./contato.html">Contato</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#105174" />
+    <meta
+      name="description"
+      content="Fale com a Global Tech pelo WhatsApp, telefone ou e-mail e converse sobre seu projeto em geotecnologia."
+    />
+    <meta property="og:title" content="Contato | Global Tech" />
+    <meta
+      property="og:description"
+      content="Fale com a Global Tech pelo WhatsApp, telefone ou e-mail e converse sobre seu projeto em geotecnologia."
+    />
+    <meta property="og:type" content="website" />
+    <title>Contato | Global Tech</title>
+    <link rel="icon" href="../img/logo-global-tech.png" type="image/png" />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="../index.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+    <header class="header">
+      <div class="container header-inner">
+        <a class="brand" href="../index.html" aria-label="Global Tech — início"
+          ><img
+            src="../img/logo-global-tech.png"
+            alt=""
+            width="54"
+            height="54"
+          /><span
+            >GLOBAL <b>TECH</b><small>SOLUÇÕES EM GEOTECNOLOGIA</small></span
+          ></a
+        ><button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="navigation"
+        >
+          Menu <span aria-hidden="true">☰</span>
+        </button>
+        <nav id="navigation" aria-label="Navegação principal">
+          <a href="../index.html#servicos">Serviços</a
+          ><a href="../pages/sobre.html">A Global Tech</a
+          ><a href="../pages/contato.html">Contato</a
+          ><a
+            class="button button-small"
+            href="https://wa.me/5519999878211"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Vamos conversar <span aria-hidden="true">↗</span></a
+          >
         </nav>
+      </div>
     </header>
-
-    <main class="conteudo-principal-contatos">
-        <span id="text-contato">
-            <p><strong><img id="img-contato" src="../img/chamada-telefonica.png" alt="Logo Telefone" srcset=""> Telefone: </strong><a href="tel:+5519999878211">(19) 99987-8211</a>
-            <br/>
-            <strong><img id="img-contato" src="../img/instagram.png" alt="Logo Instagram" srcset=""> Instagram: </strong> <a target="_blank" href="https://www.instagram.com/global_tech_geo?igsh=eWV0dmpsM2Ewa3lp">@global_tech_geo</a>
-            <br/>
-            <strong><img id="img-contato" src="../img/o-email.png" alt="Logo Email" srcset=""> Email: </strong><a href="mailto:globaltech.geotecnologias@gmail.com">globaltech.geotecnologias@gmail.com</a></p>
-            
-        </span>
-        
+    <main id="conteudo">
+      <section class="page-hero container">
+        <p class="eyebrow">FALE COM A GLOBAL TECH</p>
+        <h1>Vamos dar forma<br />ao seu <em>próximo projeto.</em></h1>
+        <p>
+          Quer conhecer um serviço ou solicitar um orçamento? Conte para nós o
+          que você precisa.
+        </p>
+      </section>
+      <section class="container contact-page">
+        <div class="contact-options">
+          <a
+            class="contact-option"
+            href="https://wa.me/5519999878211"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><span class="eyebrow">WHATSAPP</span>
+            <h2>Uma conversa direta.</h2>
+            <p>(19) 99987-8211</p>
+            <span class="text-link">Iniciar conversa ↗</span></a
+          ><a
+            class="contact-option"
+            href="mailto:globaltech.geotecnologias@gmail.com"
+            ><span class="eyebrow">E-MAIL</span>
+            <h2>Conte sobre sua ideia.</h2>
+            <p>globaltech.geotecnologias@gmail.com</p>
+            <span class="text-link">Enviar e-mail ↗</span></a
+          ><a class="phone-link" href="tel:+5519999878211"
+            >Prefere ligar? (19) 99987-8211 →</a
+          >
+        </div>
+        <aside class="contact-guide">
+          <span class="service-icon"
+            ><svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="m3 5 6-2 6 2 6-2v16l-6 2-6-2-6 2zm6-2v16m6-14v16" /></svg
+          ></span>
+          <h2>Como podemos ajudar?</h2>
+          <p>Para uma conversa mais objetiva, compartilhe:</p>
+          <ul>
+            <li>O serviço ou desafio que você tem em mente.</li>
+            <li>A localização e a dimensão aproximada da área.</li>
+            <li>Os dados ou materiais já disponíveis.</li>
+            <li>O prazo e o resultado que espera alcançar.</li>
+          </ul>
+          <a class="text-link" href="../index.html#servicos"
+            >Explorar nossos serviços →</a
+          >
+        </aside>
+      </section>
     </main>
-
-    <footer class="rodape">
-        <p>&copy;2024 GlobalTech. Todos direitos reservados.</p>
+    <footer class="footer">
+      <div class="container footer-main">
+        <a class="brand" href="../index.html" aria-label="Global Tech — início"
+          ><img
+            src="../img/logo-global-tech.png"
+            alt=""
+            width="54"
+            height="54"
+          /><span
+            >GLOBAL <b>TECH</b><small>SOLUÇÕES EM GEOTECNOLOGIA</small></span
+          ></a
+        >
+        <p>Tecnologia para conhecer.<br />Conhecimento para cuidar.</p>
+        <a href="mailto:globaltech.geotecnologias@gmail.com"
+          >globaltech.geotecnologias@gmail.com ↗</a
+        >
+      </div>
+      <div class="container footer-bottom">
+        <span
+          >© <span data-year>2026</span> Global Tech. Todos os direitos
+          reservados.</span
+        ><a href="../pages/contato.html">Fale com a nossa equipe</a>
+      </div>
     </footer>
-
-   
-</body>
+  </body>
 </html>

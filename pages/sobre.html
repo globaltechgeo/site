@@ -1,38 +1,212 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css">   
-    <title>GlobalTech</title>
-</head>
-<body>
-
-    <header class="cabecalho">
-        <img id="cabecalho-logo" src="../img/logo-global-tech.png" alt="Logo Global Tech">
-        <nav class="cabecalho-links">
-            <a href="../index.html">Home</a>
-            <a href="./sobre.html">Sobre</a>
-            <a href="./contato.html">Contato</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#105174" />
+    <meta
+      name="description"
+      content="Conheça a missão, a visão e os valores da Global Tech e nosso compromisso com a conservação ambiental."
+    />
+    <meta property="og:title" content="A Global Tech | Nossa essência" />
+    <meta
+      property="og:description"
+      content="Conheça a missão, a visão e os valores da Global Tech e nosso compromisso com a conservação ambiental."
+    />
+    <meta property="og:type" content="website" />
+    <title>A Global Tech | Nossa essência</title>
+    <link rel="icon" href="../img/logo-global-tech.png" type="image/png" />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="../index.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+    <header class="header">
+      <div class="container header-inner">
+        <a class="brand" href="../index.html" aria-label="Global Tech — início"
+          ><img
+            src="../img/logo-global-tech.png"
+            alt=""
+            width="54"
+            height="54"
+          /><span
+            >GLOBAL <b>TECH</b><small>SOLUÇÕES EM GEOTECNOLOGIA</small></span
+          ></a
+        ><button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="navigation"
+        >
+          Menu <span aria-hidden="true">☰</span>
+        </button>
+        <nav id="navigation" aria-label="Navegação principal">
+          <a href="../index.html#servicos">Serviços</a
+          ><a href="../pages/sobre.html">A Global Tech</a
+          ><a href="../pages/contato.html">Contato</a
+          ><a
+            class="button button-small"
+            href="https://wa.me/5519999878211"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Vamos conversar <span aria-hidden="true">↗</span></a
+          >
         </nav>
+      </div>
     </header>
-
-    <main class="conteudo-principal-sobre">
-        <span id="text-sobre">
-            <h3>Sobre a GlobalTech</h3>
-            <p>Somos um empresa que tem como <br/><strong>Missão</strong> entregar um serviço de excelência, sempre respeitando as particularidades de cada Cliente.<br/>Nossa <strong>Visão</strong> é ser uma empresa competitiva no mercado, respeitada e visando atender as necessidades de nossos Clientes.<br/>Sem esquecer de nossos <strong>Valores</strong><em> Honestidade, Respeito as Pessoas e ao Meio Ambiente.</em> </p>
-            </p>   
-
-            
-        </span> 
-           
+    <main id="conteudo">
+      <section class="page-hero container">
+        <p class="eyebrow">NOSSA ESSÊNCIA</p>
+        <h1>Tecnologia com propósito.<br /><em>Respeito ao território.</em></h1>
+        <p>
+          A Global Tech une geotecnologia e conhecimento agronômico para
+          entregar soluções que respeitam as particularidades de cada cliente e
+          o meio ambiente.
+        </p>
+      </section>
+      <section class="section about-home">
+        <div class="container">
+          <div class="section-heading">
+            <h2>O que nos move.</h2>
+            <p>
+              Excelência técnica, relações de confiança e responsabilidade com o
+              futuro.
+            </p>
+          </div>
+          <div class="values-grid">
+            <article>
+              <span>01</span>
+              <h3>Missão</h3>
+              <p>
+                Entregar um serviço de excelência, respeitando as
+                particularidades de cada cliente.
+              </p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>Visão</h3>
+              <p>
+                Ser uma empresa competitiva e respeitada no mercado, atendendo
+                às necessidades e expectativas de nossos clientes.
+              </p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>Valores</h3>
+              <p>Honestidade e respeito às pessoas e ao meio ambiente.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section container">
+        <p class="eyebrow">NOSSO COMPROMISSO</p>
+        <h2>Conservar também é planejar.</h2>
+        <div class="principles-grid">
+          <article class="principle">
+            <span
+              ><svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path
+                  d="M12 2S4 11 4 15a8 8 0 0 0 16 0c0-4-8-13-8-13zM8 15a4 4 0 0 0 4 4"
+                /></svg
+            ></span>
+            <h3>Conservação das águas</h3>
+            <p>
+              Preservar os recursos hídricos, os ecossistemas aquáticos e sua
+              disponibilidade para o futuro.
+            </p>
+          </article>
+          <article class="principle">
+            <span
+              ><svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path
+                  d="M3 20c6-6 12 6 18-2M3 14c6-6 12 6 18-2M3 8c6-6 12 6 18-2"
+                /></svg
+            ></span>
+            <h3>Conservação do solo</h3>
+            <p>
+              Respeitar a qualidade da terra e sua sustentabilidade a longo
+              prazo.
+            </p>
+          </article>
+          <article class="principle">
+            <span
+              ><svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path
+                  d="M20 3C9 2 3 7 4 14s12 9 15-1c1-3 1-6 1-10zM4 21 15 10"
+                /></svg
+            ></span>
+            <h3>Conservação da fauna e flora</h3>
+            <p>Valorizar a biodiversidade e o equilíbrio dos ecossistemas.</p>
+          </article>
+        </div>
+      </section>
+      <section class="contact-band">
+        <div class="container contact-inner">
+          <div>
+            <p class="eyebrow">VAMOS CONVERSAR</p>
+            <h2>Seu próximo projeto<br />começa com uma conversa.</h2>
+            <p>
+              Conte o que sua operação precisa. Vamos encontrar o caminho
+              juntos.
+            </p>
+          </div>
+          <a
+            class="button button-light"
+            href="https://wa.me/5519999878211?text=Ol%C3%A1%21%20Gostaria%20de%20conversar%20sobre%20um%20projeto%20com%20a%20Global%20Tech."
+            target="_blank"
+            rel="noopener noreferrer"
+            >Solicitar orçamento ↗</a
+          >
+        </div>
+      </section>
     </main>
-
-    <footer class="rodape">
-        <p>&copy;2024 GlobalTech. Todos direitos reservados.</p>
+    <footer class="footer">
+      <div class="container footer-main">
+        <a class="brand" href="../index.html" aria-label="Global Tech — início"
+          ><img
+            src="../img/logo-global-tech.png"
+            alt=""
+            width="54"
+            height="54"
+          /><span
+            >GLOBAL <b>TECH</b><small>SOLUÇÕES EM GEOTECNOLOGIA</small></span
+          ></a
+        >
+        <p>Tecnologia para conhecer.<br />Conhecimento para cuidar.</p>
+        <a href="mailto:globaltech.geotecnologias@gmail.com"
+          >globaltech.geotecnologias@gmail.com ↗</a
+        >
+      </div>
+      <div class="container footer-bottom">
+        <span
+          >© <span data-year>2026</span> Global Tech. Todos os direitos
+          reservados.</span
+        ><a href="../pages/contato.html">Fale com a nossa equipe</a>
+      </div>
     </footer>
-
-      
-</body>
+  </body>
 </html>

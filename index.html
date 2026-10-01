@@ -1,42 +1,513 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">   
-    <title>GlobalTech</title>
-</head>
-<body>
-
-    <header class="cabecalho">
-        <img id="cabecalho-logo" src="./img/logo-global-tech.png" alt="Logo GlobalTech">
-        <nav class="cabecalho-links">
-            <a href="./index.html">Home</a>
-            <a href="./pages/sobre.html">Sobre</a>
-            <a href="./pages/contato.html">Contato</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#105174" />
+    <meta
+      name="description"
+      content="Sensoriamento remoto, topografia, fotogrametria, automações SIG, mapas e consultoria agronômica. Conheça a Global Tech."
+    />
+    <meta
+      property="og:title"
+      content="Global Tech | Soluções em geotecnologia"
+    />
+    <meta
+      property="og:description"
+      content="Sensoriamento remoto, topografia, fotogrametria, automações SIG, mapas e consultoria agronômica. Conheça a Global Tech."
+    />
+    <meta property="og:type" content="website" />
+    <title>Global Tech | Soluções em geotecnologia</title>
+    <link rel="icon" href="img/logo-global-tech.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+    <header class="header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="Global Tech — início"
+          ><img
+            src="img/logo-global-tech.png"
+            alt=""
+            width="54"
+            height="54"
+          /><span
+            >GLOBAL <b>TECH</b><small>SOLUÇÕES EM GEOTECNOLOGIA</small></span
+          ></a
+        ><button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="navigation"
+        >
+          Menu <span aria-hidden="true">☰</span>
+        </button>
+        <nav id="navigation" aria-label="Navegação principal">
+          <a href="index.html#servicos">Serviços</a
+          ><a href="pages/sobre.html">A Global Tech</a
+          ><a href="pages/contato.html">Contato</a
+          ><a
+            class="button button-small"
+            href="https://wa.me/5519999878211"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Vamos conversar <span aria-hidden="true">↗</span></a
+          >
         </nav>
+      </div>
     </header>
-
-    <main class="conteudo-principal" id="map">
+    <main id="conteudo">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">
+              <span class="dot"></span> GEOTECNOLOGIA APLICADA AO CAMPO
+            </p>
+            <h1>Uma nova perspectiva<br />para o seu <em>território.</em></h1>
+            <p class="hero-description">
+              Conectamos informação geográfica e conhecimento agronômico para
+              transformar a forma de planejar, entender e cuidar de cada área.
+            </p>
+            <div class="hero-actions">
+              <a class="button" href="#servicos">Conheça nossas soluções ↗</a
+              ><a class="text-link" href="pages/contato.html"
+                >Fale com a Global Tech →</a
+              >
+            </div>
+            <div class="hero-note">
+              <span>01 /</span> Tecnologia com propósito.<br />Respeito ao campo
+              e ao meio ambiente.
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="visual-label">
+              <span class="dot"></span> UM TERRITÓRIO. NOVAS POSSIBILIDADES.
+            </div>
+            <img
+              src="assets/territorio.svg"
+              width="640"
+              height="640"
+              alt="Ilustração de um território agrícola em camadas: relevo, talhões e informações geográficas"
+            />
+            <div class="visual-caption">
+              <span>DO TERRITÓRIO À DECISÃO</span
+              ><span>Dados · Mapas · Planejamento</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="expertise-strip">
+        <div class="container">
+          <span>Olhar técnico.</span><span>Inteligência geográfica.</span
+          ><span>Compromisso ambiental.</span>
+        </div>
+      </div>
+      <section class="section container" id="servicos">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">O QUE FAZEMOS</p>
+            <h2>Soluções que aproximam<br />os dados do campo.</h2>
+          </div>
+          <p>
+            Da leitura do território à aplicação prática: serviços que respeitam
+            as particularidades de cada cliente.
+          </p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="card-top">
+              <span class="service-icon"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M5 3l6 6-6 6-4-4 6-6m4 4 6 6m-2-12a6 6 0 0 1 6 6m-5-2a2 2 0 0 1 2 2"
+                  /></svg></span
+              ><span class="card-number">01</span>
+            </div>
+            <p class="category">Agricultura</p>
+            <h3>Sensoriamento remoto</h3>
+            <p>
+              Imagens e análises para enxergar a variabilidade da lavoura e
+              apoiar as decisões no campo.
+            </p>
+            <a
+              href="https://wa.me/5519999878211?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20sensoriamento%20remoto."
+              target="_blank"
+              rel="noopener noreferrer"
+              >Conversar sobre este serviço ↗</a
+            >
+          </article>
+          <article class="service-card">
+            <div class="card-top">
+              <span class="service-icon"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M4 3v18m6-18v7m0 4v7m6-18v18m6-18v8m0 4v6"
+                  /></svg></span
+              ><span class="card-number">02</span>
+            </div>
+            <p class="category">Diagnóstico</p>
+            <h3>Falhas de plantio</h3>
+            <p>
+              Identificação e mapeamento de falhas para orientar a avaliação da
+              qualidade e o manejo da lavoura.
+            </p>
+            <a
+              href="https://wa.me/5519999878211?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20falhas%20de%20plantio."
+              target="_blank"
+              rel="noopener noreferrer"
+              >Conversar sobre este serviço ↗</a
+            >
+          </article>
+          <article class="service-card">
+            <div class="card-top">
+              <span class="service-icon"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="m8 7-5 5 5 5m8-10 5 5-5 5m-3-13-2 20" /></svg></span
+              ><span class="card-number">03</span>
+            </div>
+            <p class="category">Geotecnologia</p>
+            <h3>Automações SIG</h3>
+            <p>
+              Rotinas geográficas sob medida para organizar dados, agilizar
+              análises e reduzir tarefas repetitivas.
+            </p>
+            <a
+              href="https://wa.me/5519999878211?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20automa%C3%A7%C3%B5es%20sig."
+              target="_blank"
+              rel="noopener noreferrer"
+              >Conversar sobre este serviço ↗</a
+            >
+          </article>
+          <article class="service-card">
+            <div class="card-top">
+              <span class="service-icon"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M8 8h8v8H8zm0 0L3 3m13 5 5-5M8 16l-5 5m13-5 5 5M1 3h4m14 0h4M1 21h4m14 0h4"
+                  /></svg></span
+              ><span class="card-number">04</span>
+            </div>
+            <p class="category">Mapeamento</p>
+            <h3>Processamento fotogramétrico</h3>
+            <p>
+              Transformação de imagens aéreas em ortomosaicos e modelos para
+              análise e planejamento territorial.
+            </p>
+            <a
+              href="https://wa.me/5519999878211?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20processamento%20fotogram%C3%A9trico."
+              target="_blank"
+              rel="noopener noreferrer"
+              >Conversar sobre este serviço ↗</a
+            >
+          </article>
+          <article class="service-card">
+            <div class="card-top">
+              <span class="service-icon"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M3 20c6-6 12 6 18-2M3 14c6-6 12 6 18-2M3 8c6-6 12 6 18-2"
+                  /></svg></span
+              ><span class="card-number">05</span>
+            </div>
+            <p class="category">Planejamento</p>
+            <h3>Projetos para agricultura</h3>
+            <p>
+              Projetos geográficos para apoiar o planejamento das áreas e das
+              operações agrícolas.
+            </p>
+            <a
+              href="https://wa.me/5519999878211?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20projetos%20para%20agricultura."
+              target="_blank"
+              rel="noopener noreferrer"
+              >Conversar sobre este serviço ↗</a
+            >
+          </article>
+          <article class="service-card">
+            <div class="card-top">
+              <span class="service-icon"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M12 3v5M5 8h14l-7 5zm7 5L5 22m7-9 7 9m-7-9v9"
+                  /></svg></span
+              ><span class="card-number">06</span>
+            </div>
+            <p class="category">Campo</p>
+            <h3>Levantamentos topográficos</h3>
+            <p>
+              Informações do terreno para subsidiar projetos, dimensionamentos e
+              a organização das áreas.
+            </p>
+            <a
+              href="https://wa.me/5519999878211?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20levantamentos%20topogr%C3%A1ficos."
+              target="_blank"
+              rel="noopener noreferrer"
+              >Conversar sobre este serviço ↗</a
+            >
+          </article>
+          <article class="service-card">
+            <div class="card-top">
+              <span class="service-icon"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="m3 5 6-2 6 2 6-2v16l-6 2-6-2-6 2zm6-2v16m6-14v16"
+                  /></svg></span
+              ><span class="card-number">07</span>
+            </div>
+            <p class="category">Cartografia</p>
+            <h3>Caderno de mapas</h3>
+            <p>
+              Mapas temáticos organizados para facilitar a leitura das áreas e a
+              comunicação entre as equipes.
+            </p>
+            <a
+              href="https://wa.me/5519999878211?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20caderno%20de%20mapas."
+              target="_blank"
+              rel="noopener noreferrer"
+              >Conversar sobre este serviço ↗</a
+            >
+          </article>
+          <article class="service-card">
+            <div class="card-top">
+              <span class="service-icon"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="m2 8 10-5 10 5-10 5zm4 3v7c4 3 8 3 12 0v-7m4-3v9"
+                  /></svg></span
+              ><span class="card-number">08</span>
+            </div>
+            <p class="category">Conhecimento</p>
+            <h3>Treinamentos e consultoria agronômica</h3>
+            <p>
+              Capacitação e orientação técnica para aplicar a geotecnologia às
+              necessidades da sua operação.
+            </p>
+            <a
+              href="https://wa.me/5519999878211?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20treinamentos%20e%20consultoria%20agron%C3%B4mica."
+              target="_blank"
+              rel="noopener noreferrer"
+              >Conversar sobre este serviço ↗</a
+            >
+          </article>
+        </div>
+      </section>
+      <section class="about-home section">
+        <div class="container">
+          <div class="about-intro">
+            <div>
+              <p class="eyebrow">A GLOBAL TECH</p>
+              <h2>Entender a terra.<br /><em>Respeitar o futuro.</em></h2>
+            </div>
+            <div>
+              <p>
+                Acreditamos que a excelência em geotecnologia caminha junto com
+                a conservação das águas, do solo e da biodiversidade.
+              </p>
+              <p>
+                É esse compromisso que orienta nossas soluções e a forma como
+                trabalhamos com cada cliente.
+              </p>
+              <a class="text-link" href="pages/sobre.html"
+                >Conheça a nossa essência →</a
+              >
+            </div>
+          </div>
+          <div class="principles-grid">
+            <article class="principle">
+              <span
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M12 2S4 11 4 15a8 8 0 0 0 16 0c0-4-8-13-8-13zM8 15a4 4 0 0 0 4 4"
+                  /></svg
+              ></span>
+              <h3>Conservação das águas</h3>
+              <p>
+                Preservar os recursos hídricos, os ecossistemas aquáticos e sua
+                disponibilidade para o futuro.
+              </p>
+            </article>
+            <article class="principle">
+              <span
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M3 20c6-6 12 6 18-2M3 14c6-6 12 6 18-2M3 8c6-6 12 6 18-2"
+                  /></svg
+              ></span>
+              <h3>Conservação do solo</h3>
+              <p>
+                Respeitar a qualidade da terra e sua sustentabilidade a longo
+                prazo.
+              </p>
+            </article>
+            <article class="principle">
+              <span
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M20 3C9 2 3 7 4 14s12 9 15-1c1-3 1-6 1-10zM4 21 15 10"
+                  /></svg
+              ></span>
+              <h3>Conservação da fauna e flora</h3>
+              <p>Valorizar a biodiversidade e o equilíbrio dos ecossistemas.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section container process">
         <div>
-            <h1 class="h1bemvindo">
-                Bem-Vindo a <br/>GlobalTech
-                <br/>
-                <br/>
-                <img class="img-home" src="./img/logo-global-tech.png" alt="" srcset="">
-            </h1>
+          <p class="eyebrow">DO PRIMEIRO CONTATO À ENTREGA</p>
+          <h2>Clareza em cada etapa.</h2>
         </div>
-        <div id="div-home">
-            <p class="pbemvindo">Seu Fornecedor de Serviços em Geotecnologia</p>
-            <br/>
-            <p>Prestamos os mais variados serviços na área de Geotecnologia; conheça um pouco mais de nós na página <a id="link-home" href="./pages/sobre.html">Sobre</a>. Para serviços e orçamentos nos contate em <a id="link-home" href="./pages/contato.html">Contato</a></p>
+        <ol>
+          <li>
+            <span>01</span>
+            <h3>Entender</h3>
+            <p>Conhecer sua necessidade, sua área e o objetivo do projeto.</p>
+          </li>
+          <li>
+            <span>02</span>
+            <h3>Planejar</h3>
+            <p>Definir o escopo, os dados necessários e as entregas.</p>
+          </li>
+          <li>
+            <span>03</span>
+            <h3>Transformar</h3>
+            <p>
+              Aplicar a tecnologia para gerar informação útil à sua operação.
+            </p>
+          </li>
+        </ol>
+      </section>
+      <section class="contact-band">
+        <div class="container contact-inner">
+          <div>
+            <p class="eyebrow">VAMOS CONVERSAR</p>
+            <h2>Seu próximo projeto<br />começa com uma conversa.</h2>
+            <p>
+              Conte o que sua operação precisa. Vamos encontrar o caminho
+              juntos.
+            </p>
+          </div>
+          <a
+            class="button button-light"
+            href="https://wa.me/5519999878211?text=Ol%C3%A1%21%20Gostaria%20de%20conversar%20sobre%20um%20projeto%20com%20a%20Global%20Tech."
+            target="_blank"
+            rel="noopener noreferrer"
+            >Solicitar orçamento ↗</a
+          >
         </div>
+      </section>
     </main>
-
-    <footer class="rodape">
-        <p>&copy;2024 GlobalTech. Todos direitos reservados.</p>
+    <footer class="footer">
+      <div class="container footer-main">
+        <a class="brand" href="index.html" aria-label="Global Tech — início"
+          ><img
+            src="img/logo-global-tech.png"
+            alt=""
+            width="54"
+            height="54"
+          /><span
+            >GLOBAL <b>TECH</b><small>SOLUÇÕES EM GEOTECNOLOGIA</small></span
+          ></a
+        >
+        <p>Tecnologia para conhecer.<br />Conhecimento para cuidar.</p>
+        <a href="mailto:globaltech.geotecnologias@gmail.com"
+          >globaltech.geotecnologias@gmail.com ↗</a
+        >
+      </div>
+      <div class="container footer-bottom">
+        <span
+          >© <span data-year>2026</span> Global Tech. Todos os direitos
+          reservados.</span
+        ><a href="pages/contato.html">Fale com a nossa equipe</a>
+      </div>
     </footer>
-    <script defer src="./index.js"></script>   
-</body>
+  </body>
 </html>
